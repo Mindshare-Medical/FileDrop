@@ -1,7 +1,7 @@
 server {
 	listen 443 ssl http2;
 	# change URL as appropriate
-	server_name filedrop.example.com;
+	server_name upload.mindsharemed.com;
 
 	# Certificate from Let's Encrypt obtained by configuration file in /etc/letsencrypt/letsencrypt.conf
 	# Renewals managed by /home/ubuntu/bin/certrenew, daily cron in /etc/cron.daily/certcheck
