@@ -56,6 +56,7 @@ Anonymous file upload to S3 using Python/Flask
         sudo ln -s /etc/nginx/sites-available/filedrop /etc/nginx/sites-enabled/filedrop
         sudo cp ~filedrop/FileDrop/startup/systemd/filedrop.service /etc/systemd/system/filedrop.service
         sudo systemctl daemon-reload
+        sudo systemctl enable filedrop
         sudo service filedrop start
         sudo service nginx reload
         ```
